@@ -34,4 +34,4 @@ terraform {
 
   required_version = "~> 1.6.3"
 }
-## will keep the s3 in the other region
+## the link was not right
