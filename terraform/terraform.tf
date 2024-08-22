@@ -27,13 +27,11 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "gitopsterrastate"
+    bucket = "actions-terra"
     key    = "terraform.tfstate"
-    region = "us-east-2"
+    region = "us-east-1"
   }
 
   required_version = "~> 1.6.3"
 }
-##
-##
-##
+## changing again, for the new steps (not to be applied)
