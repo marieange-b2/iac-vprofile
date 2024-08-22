@@ -34,4 +34,4 @@ terraform {
 
   required_version = "~> 1.6.3"
 }
-## changing again, for the credentials
+## changing again, for the new steps (not to be applied)
